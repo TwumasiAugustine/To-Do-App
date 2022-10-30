@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div id="header" class="header">
+        <h2>My To Do List</h2>
+            <input type="text" id="input" placeholder="Title...">
+            <span onclick="addNewElement()" id="addElement">Add</span>
+    </div>
+    <div id="myList">
+        <ul id="unorderedList">
+            <li>Take Bath</li>
+            <li class="checked">Take Bath</li>
+            <li>Take Bath</li>
+            <li>Take Bath</li>
+            <li>Take Bath</li>
+            <li>Take Bath</li>
+        </ul>
+    </div>
+    <div id="footer">
+    <small>&copy; dev_twumstine 2022</small>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
